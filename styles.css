@@ -46,6 +46,12 @@ ul li a{
 header li a:hover {
     background:#463c3b;
 }
+header li a:focus {
+    background:#463c3b;
+}
+header li a:focus {
+    outline: none;
+}
 ul li {
     float: left;
     text-align: center;
