@@ -158,6 +158,7 @@ header {
 .acceleration-text {
     display: flex;
     margin-left: 25px;
+    margin-right: 25px;
     margin-top: auto;
     margin-bottom: auto;
 }
