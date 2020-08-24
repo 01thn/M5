@@ -60,7 +60,6 @@ header {
 
 .top {
     width: 100%;
-    height: 900px;
     display: flex;
     margin-left: auto; 
     margin-right: auto;  
@@ -140,17 +139,76 @@ header {
     margin-right: 25px;
 }
 
-.footer{
+.acceleration {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
+
+.acceleration-video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.acceleration-text {
+    display: flex;
+    margin-left: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.indicators {
+    display: flex;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.oneHundred,
+.twoHundred,
+.threeHundred {
+    background-color: grey;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer{
     width:100%;
     background-color: #312f2f;
     content: ' ';
-    margin-top: 10%;
+    margin-top: 200px;
 }
-.foot1{
+.foot1 {
     text-align: center;
 }
+
 .foot2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+    width: 200px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    
+}
+
+.social a {
+    margin-right: 50px;    
 }
